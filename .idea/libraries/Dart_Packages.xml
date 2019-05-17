@@ -79,17 +79,10 @@
             </list>
           </value>
         </entry>
-        <entry key="qr">
+        <entry key="qr_utils">
           <value>
             <list>
-              <option value="$PROJECT_DIR$/../../../SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr-1.1.1/lib" />
-            </list>
-          </value>
-        </entry>
-        <entry key="qr_flutter">
-          <value>
-            <list>
-              <option value="$PROJECT_DIR$/../../../SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_flutter-1.1.6/lib" />
+              <option value="$PROJECT_DIR$/../../../SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_utils-0.1.1/lib" />
             </list>
           </value>
         </entry>
@@ -175,8 +168,7 @@
       <root url="file://$PROJECT_DIR$/../../../SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/meta-1.1.6/lib" />
       <root url="file://$PROJECT_DIR$/../../../SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.6.2/lib" />
       <root url="file://$PROJECT_DIR$/../../../SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/pedantic-1.5.0/lib" />
-      <root url="file://$PROJECT_DIR$/../../../SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr-1.1.1/lib" />
-      <root url="file://$PROJECT_DIR$/../../../SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_flutter-1.1.6/lib" />
+      <root url="file://$PROJECT_DIR$/../../../SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_utils-0.1.1/lib" />
       <root url="file://$PROJECT_DIR$/../../../SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/quiver-2.0.2/lib" />
       <root url="file://$PROJECT_DIR$/../../../SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/source_span-1.5.5/lib" />
       <root url="file://$PROJECT_DIR$/../../../SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/stack_trace-1.9.3/lib" />

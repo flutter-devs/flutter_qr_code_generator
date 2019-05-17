@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:qr_flutter/qr_flutter.dart';
+import 'package:qr_utils/qr_utils.dart';
+
+import 'package:flutter/services.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -9,7 +11,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  String _content = null;
+  Image _image;
 
   final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
 
@@ -54,7 +56,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ),
                 child: Center(
-                  child: _content != null ? _getGeneratedQR() : _getDummyQR(),
+                  child: _image != null ? _buildGeneratedQR() : _getDummyQR(),
                 ),
               ),
             ),
@@ -77,7 +79,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
             InkWell(
-              onTap: () => _generateQR(),
+              onTap: () => _generateQR(_controller.text),
               child: new Center(
                 child: Container(
                   margin: EdgeInsets.only(top: 30.0),
@@ -107,16 +109,11 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  Widget _getGeneratedQR() {
-    return new QrImage(
-      data: _content,
-      size: 200.0,
-      onError: (ex) {
-        print("QR ERROR - $ex");
-        setState(() {
-           showSnackBar('Error: May be your input value is too long');
-        });
-      },
+  Widget _buildGeneratedQR() {
+    return Container(
+      width: 200.0,
+      height: 200.0,
+      child: _image,
     );
   }
 
@@ -144,13 +141,23 @@ class _HomeScreenState extends State<HomeScreen> {
     _scaffoldKey.currentState.showSnackBar(snackBar);
   }
 
-  void _generateQR() {
-    //print(_controller.text);
-    _content = _controller.text;
-    if (_content == '') {
-      _content = null;
-      showSnackBar('Please enter text to generate QR');
+  Future _generateQR(String content) async {
+    if (content.trim().length == 0) {
+      _scaffoldKey.currentState
+          .showSnackBar(SnackBar(content: Text('Please enter qr content')));
+      setState(() {
+        _image = null;
+      });
+      return;
     }
-    setState(() {});
+    Image image;
+    try {
+      image = await QrUtils.generateQR(content);
+    } on PlatformException {
+      image = null;
+    }
+    setState(() {
+      _image = image;
+    });
   }
 }
