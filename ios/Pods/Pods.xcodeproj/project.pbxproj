@@ -19,15 +19,15 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		2C8C6D29A3E1E07A4BA2D06A72A5E804 /* QrUtilsPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 09DCBC098EF1CBEEEE6B24C9652E8929 /* QrUtilsPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C8C6D29A3E1E07A4BA2D06A72A5E804 /* QrUtilsPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C660425F7B1F9D4B2A9AA956E6D4D3C /* QrUtilsPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2FC114365E93F5BDF22DCDDBF5E67542 /* qr_utils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56091521C4D1DA4DF19CF0A4217674F0 /* qr_utils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		469495B20ADEBA3CF4B4C5CD9B2B94F8 /* SwiftQrUtilsPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADF145431BDA6E1E477806E5067C755 /* SwiftQrUtilsPlugin.swift */; };
+		469495B20ADEBA3CF4B4C5CD9B2B94F8 /* SwiftQrUtilsPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32C2BF0788BD56027B3DE3ADEF83C97 /* SwiftQrUtilsPlugin.swift */; };
 		46A54380D27C886C0C0F2408C5904CEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		53B8CA404A01B8BE9E2E0C63702798EE /* qr_utils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3BE269FC4456E5A01986DE438FBBF9 /* qr_utils-dummy.m */; };
 		84C4B5B5C5D1B776C1C844095B742C17 /* Pods-Runner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 754B3E6694630AACF611E61E67125B27 /* Pods-Runner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9005C6825DBCA4FADCC42F03D44D7D87 /* Pods-Runner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF92DC0D08BF346CF0E44D9116F81B4 /* Pods-Runner-dummy.m */; };
 		A017BEF833BC0A9D82A44F623BF57CEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		BEC304260AB1351A93252EB1B90E33D8 /* QrUtilsPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 7999FAD4F6971F439B35A4409961CB7B /* QrUtilsPlugin.m */; };
+		BEC304260AB1351A93252EB1B90E33D8 /* QrUtilsPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 250DC16B69859FB015939EF32BE8CAD4 /* QrUtilsPlugin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,12 +55,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09DCBC098EF1CBEEEE6B24C9652E8929 /* QrUtilsPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QrUtilsPlugin.h; path = "../../../../../../../../../SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_utils-0.1.1/ios/Classes/QrUtilsPlugin.h"; sourceTree = "<group>"; };
 		103E4327733053B633449D7C722573CD /* qr_utils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = qr_utils.podspec; path = "../../../../../../../../SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_utils-0.1.1/ios/qr_utils.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		23C414748D59799ED0294E3BF2F8C6FE /* qr_utils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "qr_utils-prefix.pch"; sourceTree = "<group>"; };
+		250DC16B69859FB015939EF32BE8CAD4 /* QrUtilsPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QrUtilsPlugin.m; path = "../../../../../../../../../SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_utils-0.1.1/ios/Classes/QrUtilsPlugin.m"; sourceTree = "<group>"; };
 		2D379144044799A88B852CAD236C43FB /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Runner.framework; path = "Pods-Runner.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FF69F408F76842742DDE818BEF149FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../../../../../../../SDK/FlutterSDK/flutter/bin/cache/artifacts/engine/ios/LICENSE; sourceTree = "<group>"; };
-		3ADF145431BDA6E1E477806E5067C755 /* SwiftQrUtilsPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftQrUtilsPlugin.swift; path = "../../../../../../../../../SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_utils-0.1.1/ios/Classes/SwiftQrUtilsPlugin.swift"; sourceTree = "<group>"; };
+		3C660425F7B1F9D4B2A9AA956E6D4D3C /* QrUtilsPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QrUtilsPlugin.h; path = "../../../../../../../../../SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_utils-0.1.1/ios/Classes/QrUtilsPlugin.h"; sourceTree = "<group>"; };
 		3C8C48BBA21C45E9F9C2E49FFC65C497 /* Pods-Runner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Runner-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3DAA0C22D921412B0CE2CF55ED9574FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_utils-0.1.1/LICENSE"; sourceTree = "<group>"; };
 		3EED307365BB569E2E8DCE628A4C6D80 /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Flutter.framework; path = ../../../../../../../SDK/FlutterSDK/flutter/bin/cache/artifacts/engine/ios/Flutter.framework; sourceTree = "<group>"; };
@@ -72,11 +72,11 @@
 		5CF8A0BEFDA863FFDFF05EA4857A9AB1 /* Pods-Runner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-Info.plist"; sourceTree = "<group>"; };
 		754B3E6694630AACF611E61E67125B27 /* Pods-Runner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Runner-umbrella.h"; sourceTree = "<group>"; };
 		77318A3372E368C709823810BFEF472F /* Flutter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.xcconfig; sourceTree = "<group>"; };
-		7999FAD4F6971F439B35A4409961CB7B /* QrUtilsPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QrUtilsPlugin.m; path = "../../../../../../../../../SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_utils-0.1.1/ios/Classes/QrUtilsPlugin.m"; sourceTree = "<group>"; };
 		7D2B07883BA848B0F5AFA9E637561240 /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Flutter.podspec; path = ../../../../../../../SDK/FlutterSDK/flutter/bin/cache/artifacts/engine/ios/Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9AF92DC0D08BF346CF0E44D9116F81B4 /* Pods-Runner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Runner-dummy.m"; sourceTree = "<group>"; };
 		AC48A93DAA18667CA83F8C97BE8ECA98 /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
 		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C32C2BF0788BD56027B3DE3ADEF83C97 /* SwiftQrUtilsPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftQrUtilsPlugin.swift; path = "../../../../../../../../../SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_utils-0.1.1/ios/Classes/SwiftQrUtilsPlugin.swift"; sourceTree = "<group>"; };
 		C547CCD95F18A87F81A0BB661586B575 /* qr_utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = qr_utils.framework; path = qr_utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8FE4CC3453D26E98B231AC7D105C836 /* qr_utils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = qr_utils.xcconfig; sourceTree = "<group>"; };
 		C930EC1D220FCACCEB8F24431D0C8A83 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
@@ -106,15 +106,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		09A379F64029254CA52BB11D5954A3D2 /* ios */ = {
-			isa = PBXGroup;
-			children = (
-				C6A47D9E8B5DC6EAAAB31F6E8A745EB3 /* Classes */,
-			);
-			name = ios;
-			path = ios;
-			sourceTree = "<group>";
-		};
 		1334C00D422708216F54D909CB876EE9 /* .. */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +124,15 @@
 			);
 			name = qr_utils;
 			path = ../.symlinks/plugins/qr_utils/ios;
+			sourceTree = "<group>";
+		};
+		1D33598D7AE506F4CF12C4F5A14FB29C /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				31480BD013FF4105FC14D152C72E2776 /* .symlinks */,
+			);
+			name = ios;
+			path = ios;
 			sourceTree = "<group>";
 		};
 		2DEAA4EF95E5BB725671604CF14667B1 /* .. */ = {
@@ -158,6 +158,15 @@
 			path = "../../../../Pods/Target Support Files/qr_utils";
 			sourceTree = "<group>";
 		};
+		31480BD013FF4105FC14D152C72E2776 /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				D612AF23B147796924572CD39CEC58A5 /* plugins */,
+			);
+			name = .symlinks;
+			path = .symlinks;
+			sourceTree = "<group>";
+		};
 		33F3E47A8C609A7A897CA17D6AD4FBF3 /* .. */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,13 +185,13 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		4430844F419B6B5902168D53263B071F /* .symlinks */ = {
+		41FEAF0E5C53FB1075B978C556F94C29 /* qr_utils */ = {
 			isa = PBXGroup;
 			children = (
-				D8035D2A816B086A44F34E004D3C477A /* plugins */,
+				A1D19774D84CE2EEB6C73BEF4E7FEB0C /* ios */,
 			);
-			name = .symlinks;
-			path = .symlinks;
+			name = qr_utils;
+			path = qr_utils;
 			sourceTree = "<group>";
 		};
 		446CDD5E079DDA320A73DAE4D3D934F0 /* .. */ = {
@@ -202,19 +211,10 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		528CBCBBAC48DC225DD473AFFB904A41 /* ios */ = {
-			isa = PBXGroup;
-			children = (
-				4430844F419B6B5902168D53263B071F /* .symlinks */,
-			);
-			name = ios;
-			path = ios;
-			sourceTree = "<group>";
-		};
 		5EDEEE725E00EDD4D576B99C0341458F /* FlutterProjects */ = {
 			isa = PBXGroup;
 			children = (
-				E0014D201EABC730263B253037E19DE9 /* Aeologic */,
+				7B4BB301F3D1BE9473030257901A920D /* Aeologic */,
 			);
 			name = FlutterProjects;
 			path = FlutterProjects;
@@ -229,15 +229,6 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		6C8BCE16EF926954EE107AD8CBBE5864 /* flutter_qr_code_generator_app */ = {
-			isa = PBXGroup;
-			children = (
-				528CBCBBAC48DC225DD473AFFB904A41 /* ios */,
-			);
-			name = flutter_qr_code_generator_app;
-			path = flutter_qr_code_generator_app;
-			sourceTree = "<group>";
-		};
 		7399D689ADD92D825E298843A38D9255 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -245,6 +236,15 @@
 				2FF69F408F76842742DDE818BEF149FE /* LICENSE */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		7B4BB301F3D1BE9473030257901A920D /* Aeologic */ = {
+			isa = PBXGroup;
+			children = (
+				BE9E8E949FBD6AA938CACC3B2A1094AF /* flutter_qr_code_generator */,
+			);
+			name = Aeologic;
+			path = Aeologic;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -276,13 +276,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A5E65512514D4232F2FE4E59EE5365B7 /* qr_utils */ = {
+		A1D19774D84CE2EEB6C73BEF4E7FEB0C /* ios */ = {
 			isa = PBXGroup;
 			children = (
-				09A379F64029254CA52BB11D5954A3D2 /* ios */,
+				D9CFC56D9BF2158A71010829F9065467 /* Classes */,
 			);
-			name = qr_utils;
-			path = qr_utils;
+			name = ios;
+			path = ios;
 			sourceTree = "<group>";
 		};
 		B8033674D35BC8BFA83F84E8BA1984E1 /* .. */ = {
@@ -318,15 +318,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C6A47D9E8B5DC6EAAAB31F6E8A745EB3 /* Classes */ = {
+		BE9E8E949FBD6AA938CACC3B2A1094AF /* flutter_qr_code_generator */ = {
 			isa = PBXGroup;
 			children = (
-				09DCBC098EF1CBEEEE6B24C9652E8929 /* QrUtilsPlugin.h */,
-				7999FAD4F6971F439B35A4409961CB7B /* QrUtilsPlugin.m */,
-				3ADF145431BDA6E1E477806E5067C755 /* SwiftQrUtilsPlugin.swift */,
+				1D33598D7AE506F4CF12C4F5A14FB29C /* ios */,
 			);
-			name = Classes;
-			path = Classes;
+			name = flutter_qr_code_generator;
+			path = flutter_qr_code_generator;
 			sourceTree = "<group>";
 		};
 		CA081C594FF780F8C18BC02D0F81CA20 /* Pod */ = {
@@ -347,13 +345,24 @@
 			path = "../../../Pods/Target Support Files/Flutter";
 			sourceTree = "<group>";
 		};
-		D8035D2A816B086A44F34E004D3C477A /* plugins */ = {
+		D612AF23B147796924572CD39CEC58A5 /* plugins */ = {
 			isa = PBXGroup;
 			children = (
-				A5E65512514D4232F2FE4E59EE5365B7 /* qr_utils */,
+				41FEAF0E5C53FB1075B978C556F94C29 /* qr_utils */,
 			);
 			name = plugins;
 			path = plugins;
+			sourceTree = "<group>";
+		};
+		D9CFC56D9BF2158A71010829F9065467 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3C660425F7B1F9D4B2A9AA956E6D4D3C /* QrUtilsPlugin.h */,
+				250DC16B69859FB015939EF32BE8CAD4 /* QrUtilsPlugin.m */,
+				C32C2BF0788BD56027B3DE3ADEF83C97 /* SwiftQrUtilsPlugin.swift */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		DC60603466173112CC7EC045B7AD5DA5 /* .. */ = {
@@ -372,15 +381,6 @@
 			);
 			name = ..;
 			path = ..;
-			sourceTree = "<group>";
-		};
-		E0014D201EABC730263B253037E19DE9 /* Aeologic */ = {
-			isa = PBXGroup;
-			children = (
-				6C8BCE16EF926954EE107AD8CBBE5864 /* flutter_qr_code_generator_app */,
-			);
-			name = Aeologic;
-			path = Aeologic;
 			sourceTree = "<group>";
 		};
 		E70F8E95BED381C138812166DF7EAA1D /* Flutter */ = {
